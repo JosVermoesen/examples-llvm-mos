@@ -1,10 +1,6 @@
-# RP6502 VSCode Scaffolding for LLVM-MOS
+# RP6502 Examples for LLVM-MOS
 
-This is scaffolding for a new Picocomputer 6502 software project.
-
-This is EXPERIMENTAL. Standard library support is limited.
-The LLVM-MOS compiler generates excellent code but does not yet have C library
-support as good as [cc65](https://github.com/picocomputer/vscode-cc65).
+A few examples using LLVM-MOS. This is EXPERIMENTAL.
 
 ### LLVM PATH notes
 

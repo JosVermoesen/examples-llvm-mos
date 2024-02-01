@@ -3,8 +3,15 @@ add_subdirectory(tools)
 set(LLVM_MOS_PLATFORM rp6502)
 find_package(llvm-mos-sdk REQUIRED)
 project(MY-RP6502-PROJECT)
-add_executable(hello)
-rp6502_executable(hello)
-target_sources(hello PRIVATE
-    src/main.c
+
+add_executable(mandelbrot)
+rp6502_executable(mandelbrot)
+target_sources(mandelbrot PRIVATE
+    src/mandelbrot.c
+)
+
+add_executable(palette)
+rp6502_executable(palette)
+target_sources(palette PRIVATE
+    src/palette.c
 )
