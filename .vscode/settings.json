@@ -1,0 +1,5 @@
+{
+    "cmake.environment": {
+        "PATH": "~/Bureaublad/picocomputer/llvm-works/llvm-mos/bin:${env:PATH}"
+    }
+}
