@@ -4,16 +4,16 @@ set(LLVM_MOS_PLATFORM rp6502)
 find_package(llvm-mos-sdk REQUIRED)
 project(MY-RP6502-PROJECT)
 
-add_executable(life)
-rp6502_executable(life)
-target_sources(life PRIVATE
-    src/life.c
-)
-
 add_executable(mandelbrot)
 rp6502_executable(mandelbrot)
 target_sources(mandelbrot PRIVATE
     src/mandelbrot.c
+)
+
+add_executable(life)
+rp6502_executable(life)
+target_sources(life PRIVATE
+    src/life.c
 )
 
 add_executable(palette)
